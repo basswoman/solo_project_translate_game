@@ -24,3 +24,8 @@ body {
 div {
   margin-bottom: 5px;
 }
+.answer {
+  position: absolute;
+  margin-top: 70px;
+  right: 100px;
+}

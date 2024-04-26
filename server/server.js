@@ -6,15 +6,6 @@ require('dotenv').config();
 const fs = require('fs');
 var bodyParser = require('body-parser');
 
-const Highcharts = require('highcharts/highmaps.js'),
-  map = require('@highcharts/map-collection/custom/world.topo.json');
-// Highcharts.mapChart('container', {
-//   chart: {
-//     map,
-//   },
-//   // ...
-// });
-
 const translateController = require('../server/controllers/translateController.js');
 const textToSpeechController = require('../server/controllers/textToSpeechController.js');
 
